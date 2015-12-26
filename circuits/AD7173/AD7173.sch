@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14533,7 +14533,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="IC1" library="AD7173" deviceset="AD7173" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="220"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="."/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -14569,20 +14569,20 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="L1" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ" device="" value="."/>
+<part name="SJ2" library="jumper" deviceset="SJ" device="" value="."/>
+<part name="SJ3" library="jumper" deviceset="SJ" device="" value="."/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device="" value="REFV"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="."/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="220"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M12" device="PTH"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="."/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M12" device="PTH" value="."/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="PTH" value="."/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="."/>
 </parts>
 <sheets>
 <sheet>
@@ -14742,6 +14742,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="261.62" y1="12.7" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="3"/>
+<junction x="254" y="12.7"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="REF-"/>
@@ -14812,7 +14813,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="165.1" y="76.2"/>
 <junction x="193.04" y="58.42"/>
 <wire x1="203.2" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="66.04" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <junction x="193.04" y="76.2"/>
 <junction x="203.2" y="76.2"/>
 </segment>
@@ -15100,7 +15100,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="27.94" y1="55.88" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="3"/>
-<wire x1="27.94" y1="35.56" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <junction x="27.94" y="35.56"/>
@@ -15115,7 +15114,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="35.56" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="35.56" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <junction x="15.24" y="35.56"/>
 </segment>
 </net>
@@ -15176,7 +15174,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="162.56" y1="25.4" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="172.72" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="22.86" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
 <junction x="162.56" y="25.4"/>
 <wire x1="162.56" y1="25.4" x2="162.56" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -15258,6 +15255,37 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,60.96,86.36,IC1,AIN16,,,,"/>
+<approved hash="202,1,60.96,43.18,IC1,ERROR,,,,"/>
+<approved hash="104,1,167.64,66.04,IC2,GND1,GND,,,"/>
+<approved hash="104,1,190.5,66.04,IC2,GND2,GND,,,"/>
+<approved hash="104,1,190.5,63.5,IC2,GND3,GND,,,"/>
+<approved hash="104,1,190.5,60.96,IC2,GND4,GND,,,"/>
+<approved hash="104,1,190.5,58.42,IC2,GND5,GND,,,"/>
+<approved hash="104,1,210.82,66.04,IC3,GND1,GND,,,"/>
+<approved hash="104,1,233.68,66.04,IC3,GND2,GND,,,"/>
+<approved hash="104,1,233.68,63.5,IC3,GND3,GND,,,"/>
+<approved hash="104,1,233.68,60.96,IC3,GND4,GND,,,"/>
+<approved hash="104,1,233.68,58.42,IC3,GND5,GND,,,"/>
+<approved hash="208,1,43.18,10.16,+3V3,sup,,,,"/>
+<approved hash="208,1,167.64,60.96,+3V3,out,,,,"/>
+<approved hash="208,1,170.18,48.26,+3V3,sup,,,,"/>
+<approved hash="208,1,254,76.2,+3V3,sup,,,,"/>
+<approved hash="208,1,210.82,60.96,+5V,out,,,,"/>
+<approved hash="208,1,213.36,48.26,+5V,sup,,,,"/>
+<approved hash="208,1,12.7,96.52,+5V,sup,,,,"/>
+<approved hash="208,1,246.38,76.2,+5V,sup,,,,"/>
+<approved hash="208,1,25.4,93.98,GND,sup,,,,"/>
+<approved hash="208,1,142.24,10.16,GND,sup,,,,"/>
+<approved hash="208,1,226.06,10.16,GND,sup,,,,"/>
+<approved hash="208,1,203.2,17.78,GND,sup,,,,"/>
+<approved hash="208,1,134.62,86.36,GND,sup,,,,"/>
+<approved hash="208,1,71.12,10.16,GND,sup,,,,"/>
+<approved hash="208,1,91.44,30.48,GND,out,,,,"/>
+<approved hash="208,1,193.04,53.34,GND,sup,,,,"/>
+<approved hash="208,1,27.94,10.16,GND,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

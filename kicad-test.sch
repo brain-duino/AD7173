@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:gatestka
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:kicad-test-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268

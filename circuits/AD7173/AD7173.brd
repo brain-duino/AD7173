@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2077,7 +2077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_FARNELL" value="1436019" x="26.8" y="17.18" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="220" x="4.5" y="10.5" rot="R180"/>
-<element name="LED1" library="led" package="CHIP-LED0603" value="" x="6.2" y="11.2"/>
+<element name="LED1" library="led" package="CHIP-LED0603" value="." x="6.2" y="11.2"/>
 <element name="C1" library="rcl" package="C0402" value="0.1uF" x="4.1" y="20.8" rot="R90"/>
 <element name="R2" library="rcl" package="R0402" value="10k" x="10.42" y="17.23" rot="R270"/>
 <element name="R3" library="rcl" package="R0402" value="10k" x="13.88" y="19.1" rot="R270"/>
@@ -2101,17 +2101,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="C14" library="rcl" package="C0402" value="4.7uF" x="17.2" y="2.9" rot="R90"/>
 <element name="L1" library="inductors" package="0402" value="BLM15HB121SN1" x="7.9" y="7.9" rot="R180"/>
 <element name="C15" library="rcl" package="C0402" value="0.1uF" x="4.5" y="5.2"/>
-<element name="SJ1" library="jumper" package="SJ" value="" x="14.2" y="8.4" rot="MR270"/>
-<element name="SJ2" library="jumper" package="SJ" value="" x="10.8" y="8.4" rot="MR270"/>
-<element name="SJ3" library="jumper" package="SJ" value="" x="10.8" y="3.3" rot="MR90"/>
-<element name="LED2" library="led" package="CHIP-LED0603" value="" x="10.8" y="6.7" rot="R270"/>
+<element name="SJ1" library="jumper" package="SJ" value="." x="14.2" y="8.4" rot="MR270"/>
+<element name="SJ2" library="jumper" package="SJ" value="." x="10.8" y="8.4" rot="MR270"/>
+<element name="SJ3" library="jumper" package="SJ" value="." x="10.8" y="3.3" rot="MR90"/>
+<element name="LED2" library="led" package="CHIP-LED0603" value="." x="10.8" y="6.7" rot="R270"/>
 <element name="R5" library="rcl" package="R0402" value="220" x="8.2" y="6.7" rot="R180"/>
 <element name="C16" library="rcl" package="C0402" value="4.7uF" x="4.5" y="2.7"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="13.2" y="28.2"/>
-<element name="JP1" library="SparkFun-Connectors" package="1X05" value="" x="1.8" y="19.35" rot="R90"/>
-<element name="JP2" library="SparkFun-Connectors" package="1X12" value="" x="19.55" y="29.5" rot="R270"/>
-<element name="JP3" library="SparkFun-Connectors" package="1X04" value="" x="1.8" y="9.2" rot="R90"/>
-<element name="JP4" library="SparkFun-Connectors" package="1X03" value="" x="1.8" y="6.65" rot="R270"/>
+<element name="JP1" library="SparkFun-Connectors" package="1X05" value="." x="1.8" y="19.35" rot="R90"/>
+<element name="JP2" library="SparkFun-Connectors" package="1X12" value="." x="19.55" y="29.5" rot="R270"/>
+<element name="JP3" library="SparkFun-Connectors" package="1X04" value="." x="1.8" y="9.2" rot="R90"/>
+<element name="JP4" library="SparkFun-Connectors" package="1X03" value="." x="1.8" y="6.65" rot="R270"/>
 </elements>
 <signals>
 <signal name="GPIO1">
